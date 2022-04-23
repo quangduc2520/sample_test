@@ -1,0 +1,175 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title SampleTest
+  link(rel='stylesheet' href='./style/reset.css')
+  link(rel='stylesheet' href='./style/app.css')
+  link(rel='preconnect' href='https://fonts.googleapis.com')
+  link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+  link(href='https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap' rel='stylesheet')
+  link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css')
+.wrapper
+  // ----------HEADER----------
+  #header.header
+    .head
+      a.logo(href='')
+        img(src='.//images/tanner_logo.png' alt='')
+      ul
+        li
+          a.black(href='#header') navy salt
+        li
+          a.black(href='#02') voyager
+        li
+          a.white(href='#03') drifter
+        li
+          a.white(href='#04') collection
+        li
+          a.white(href='#05') contact
+      .pic1
+        img(src='./images/pic1.png' alt='bag1')
+    .slider
+      a.btn-slider(href='')
+        i.fa-solid.fa-angle-up
+      a.btn-slider(href='')
+        i.fa-solid.fa-chevron-down
+    .number
+      a.num(href='#header') 01
+      a.num(href='#02') 02
+      a.num(href='#03') 03
+      a.num(href='#04') 04
+      a.num(href='#05') 05
+    .title
+      .des.black Designed for utility
+      .name.black NAVY SALT &amp; PEPPER
+      .arrow
+        .text Gear Up
+        i.fa-solid.fa-angle-right
+  // ----------END HEADER----------
+  // ----------MIDDLE----------
+  #02.product1
+    img(src='./images/pic2.png' alt='bag2')
+    .description
+      | Whether you&apos;re stomping around outdoors
+      | or traversing the city, our Voyager Daypack
+      | was designed to be adaptable
+      | in all environments. Compact, lightweight
+      | and a comfortable for people of all sizes.
+      | this silhouette is versatile enough
+    .name.white VOYAGER DAYPACK
+    .des.white NAVY SALT &amp; PEPPER
+    .arrow-down
+      i.fa-solid.fa-angle-down
+  #03.product2
+    | &gt;
+    .des-tittle NAVY SALT
+    .description
+      | Field-tested from the peaks of the Cascades down
+      | to the desert floor of Joshua Tree, the Wilderness Rucksack was built to put on some serious miles
+      | for years to come. A comfortable, dependable combination of 14oz Salt &amp; Pepper canvas, premium wool felt, and Cambara English bridle leather.
+    img(src='./images/pic3.png' alt='bag3')
+    .name.white DRIFTER DOPP KIT
+    .des.white NAVY SALT &amp; PEPPER
+    .arrow-down
+      i.fa-solid.fa-angle-down
+  .collections(id='' 04='')
+    h1 TANNER COLLECTIONS
+    .des-text
+      hr.des-line
+      p NAVY SALT &amp; PEPPER
+    .item1
+      .up-text
+        .num 01
+        hr.up-line
+      .wrap-item
+        img.pic-item1(src='./images/pic4.png' alt='')
+        .right-text
+          hr.up
+          h1 NOMAD DUFFLE
+          p
+            | This bag can be carried by hand, worn as a backpack or slung over a shoulder depending on your traveling needs
+          p.more
+            | READ MORE    
+            i.fa-solid.fa-angle-right
+          hr.down
+      .wrap-item.bot
+        .left-text
+          h1 SUPRUCE SALT &amp; PEPPER
+          p
+            | We designed our Nomad Duffle as a versatile yet 
+            br
+            |  rugged piece of luggage that&apos;s just as comfortable 
+            br
+            |  outdoors as it is in an overhead compartment
+          p.more
+            | READ MORE
+            i.fa-solid.fa-angle-right
+        img.pic-item2(src='./images/pic5.png' alt='')
+    .item2
+      .left-side
+        img.pic-item3(src='./images/pic6.png' alt='')
+        h1.white
+          | VOYAGER 
+          br
+          |  DAYPACK
+      .right-side
+        h1 FIELD CAMERA BAG
+        .wrap-side
+          p
+            | Our field camera bag is constructed from 14oz Salt &amp; Pepper canvas and Cambara Meridian English bridle leather. We&apos;ve put these bags through the ringer in testing and we think you&apos;ll approve of the result. Our Camera Bag is fully lined and padded, and features an adjustable shoulder strap and
+          p.more
+            | READ MORE
+            i.fa-solid.fa-angle-right
+        img.pic-item4(src='./images/pic8.png' alt='')
+    ul.item3
+      li.product-item
+        img(src='./images/pro1.png' alt='')
+      li.product-item
+        img(src='./images/pro2.png' alt='')
+      li.product-item
+        img(src='./images/pro3.png' alt='')
+      li.product-item
+        img(src='./images/pro4.png' alt='')
+      li.product-item
+        img(src='./images/pro5.png' alt='')
+      li.product-item
+        img(src='./images/pro6.png' alt='')
+  // ----------ENDMIDDLE----------
+  // ----------FOOTER----------
+  footer#05
+    .up-footer
+      .logo
+        img(src='./images/tanner_logo.png' alt='')
+      ul.about
+        li FINDA
+        li STORE
+        li SIZING
+        li CARE
+        li WATCH
+      .address
+        .head-address Sebazzo Ltd, Unit 3F2
+        .main-address
+          | Zetland House 
+          br
+          |                         5-25 Scrutton Street 
+          br
+          |                         London EC2A 4HJ
+      .email
+        .newsletter EMAIL NEWSLETTERS
+        .sign
+          | Sign up for new TANNER GOODS content, 
+          br
+          |  updates, surveys &amp; offers.
+        .log
+          input(type='text')
+          .button
+            i.fa-solid.fa-angle-right
+    .bot-footer
+      .copyright &copy; tanner goods portland ore 2016
+      ul.about
+        li facebook
+        li pinterest
+        li twitter
+        li instagram
+  // ----------END FOOTER----------
